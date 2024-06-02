@@ -1914,7 +1914,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x05_Top_Bottom"
+		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1928,7 +1928,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x05_Top_Bottom"
+			(property "Value" "Conn_02x05_Odd_Even"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -1954,7 +1954,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1981,7 +1981,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x05_Top_Bottom_1_1"
+			(symbol "Conn_02x05_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -2140,7 +2140,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -2158,7 +2158,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -2176,7 +2176,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -2194,7 +2194,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -2212,7 +2212,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -2230,7 +2230,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -2248,7 +2248,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -2266,7 +2266,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -2711,20 +2711,23 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LD1117S33TR_SOT223"
+		(symbol "Regulator_Linear:TLV75533PDBV"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 3.175 0)
+				(at -3.81 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LD1117S33TR_SOT223"
-				(at 0 3.175 0)
+			(property "Value" "TLV75533PDBV"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2732,8 +2735,18 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2741,16 +2754,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2759,7 +2763,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "REGULATOR LDO 3.3V"
+			(property "ki_keywords" "LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2768,7 +2772,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2777,10 +2781,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LD1117S33TR_SOT223_0_1"
+			(symbol "TLV75533PDBV_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2790,11 +2794,11 @@
 					)
 				)
 			)
-			(symbol "LD1117S33TR_SOT223_1_1"
+			(symbol "TLV75533PDBV_1_1"
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2809,10 +2813,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VO"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2827,10 +2831,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "VI"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2838,6 +2842,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4471,6 +4511,12 @@
 		(uuid "3375af59-d4a4-441d-9b51-dc91a22a4f0b")
 	)
 	(junction
+		(at 90.17 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33bdafc4-f15d-4d6b-aced-416136d3bd95")
+	)
+	(junction
 		(at 27.94 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4579,12 +4625,6 @@
 		(uuid "d812f0f8-fc34-4eae-a0e7-f2bb534776d6")
 	)
 	(junction
-		(at 90.17 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e31bc9dd-bd73-4c76-af78-650a82db26fc")
-	)
-	(junction
 		(at 114.3 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4618,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 34.29) (xy 90.17 34.29)
+			(xy 83.82 31.75) (xy 90.17 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5428,6 +5468,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 31.75) (xy 68.58 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f952eb-26dd-46ba-967b-5a5e274b8ee9")
+	)
+	(wire
+		(pts
 			(xy 204.47 91.44) (xy 209.55 91.44)
 		)
 		(stroke
@@ -5465,16 +5515,6 @@
 			(type default)
 		)
 		(uuid "67fb0007-e961-4a0e-b3ce-472394fb1229")
-	)
-	(wire
-		(pts
-			(xy 90.17 44.45) (xy 90.17 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "683aec5a-00a8-44f3-a5fa-ccc2d300d00b")
 	)
 	(wire
 		(pts
@@ -5748,6 +5788,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 31.75) (xy 62.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922df938-5323-4e38-975e-e0542e49cc75")
+	)
+	(wire
+		(pts
 			(xy 34.29 52.07) (xy 34.29 48.26)
 		)
 		(stroke
@@ -5898,16 +5948,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 34.29) (xy 68.58 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a562324a-b2f7-490b-91b0-fb3daeaaffdf")
-	)
-	(wire
-		(pts
 			(xy 57.15 137.16) (xy 50.8 137.16)
 		)
 		(stroke
@@ -6055,6 +6095,16 @@
 			(type default)
 		)
 		(uuid "b905cdeb-dfe6-40b1-8b89-6380bb94c491")
+	)
+	(wire
+		(pts
+			(xy 62.23 34.29) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5663cb-1f58-451e-8a7c-b0d0ca35f380")
 	)
 	(wire
 		(pts
@@ -6308,7 +6358,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 34.29) (xy 90.17 31.75)
+			(xy 90.17 31.75) (xy 90.17 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7298,7 +7348,7 @@
 		)
 		(uuid "482d0c5e-694f-4b9e-ba91-ec393c9ebc36")
 	)
-	(label "PD5"
+	(label "PD4"
 		(at 50.8 170.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7991,7 +8041,7 @@
 		)
 		(uuid "caa7c710-5dba-49fc-9ab7-b04a18de3dc2")
 	)
-	(label "PD4"
+	(label "PD5"
 		(at 22.86 170.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8360,7 +8410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical"
 			(at 34.29 142.24 0)
 			(effects
 				(font
@@ -8728,6 +8778,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
+		(at 120.65 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12bcd439-98e9-4627-80dd-fd995023af98")
+		(property "Reference" "J3"
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x05_Odd_Even"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "15a9416a-a990-4c95-a2d8-3a7cafb72254")
+		)
+		(pin "3"
+			(uuid "f9e99d59-e3d2-4b07-88ac-838abdb1394e")
+		)
+		(pin "4"
+			(uuid "be8bbfe4-53a2-4cd8-9107-e8626695cd39")
+		)
+		(pin "2"
+			(uuid "770c5448-8ffb-4a4c-a0ee-be2ca85f8068")
+		)
+		(pin "9"
+			(uuid "c5de3154-5bc9-4591-8180-09010ca0237e")
+		)
+		(pin "5"
+			(uuid "ff175b22-3f10-45f3-a85e-5b408c8f4fc1")
+		)
+		(pin "6"
+			(uuid "bb0b4962-5334-4a07-9736-54c026867831")
+		)
+		(pin "10"
+			(uuid "483a9172-b66f-4eef-8383-d3d8dd99b9f2")
+		)
+		(pin "1"
+			(uuid "20647fde-292d-42ef-a74e-674a79ff85a6")
+		)
+		(pin "8"
+			(uuid "e2bcdd54-979f-4aed-af3d-c4a23477b47d")
+		)
+		(instances
+			(project "TM4C-Purple-Pill"
+				(path "/91263885-299d-4d27-a70d-0968ae428135"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 165.1 33.02 0)
 		(unit 1)
@@ -8755,7 +8897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.0652 36.83 0)
 			(effects
 				(font
@@ -9370,7 +9512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 116.84 123.19 0)
 			(effects
 				(font
@@ -9438,7 +9580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10104110_Horizontal"
 			(at 173.99 86.36 0)
 			(effects
 				(font
@@ -9502,7 +9644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39e42bf2-e5fd-4ad8-845f-f751617230ef")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 43.18 87.6299 0)
 			(effects
 				(font
@@ -9520,7 +9662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.3352 92.71 0)
 			(effects
 				(font
@@ -9556,7 +9698,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9588,7 +9730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 124.968 90)
 			(effects
 				(font
@@ -9911,7 +10053,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 116.84 110.49 0)
 			(effects
 				(font
@@ -10161,7 +10303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54a4a547-3ed8-473a-ac62-e9d0df7d1f7d")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 134.62 44.4499 0)
 			(effects
 				(font
@@ -10179,7 +10321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 131.7752 49.53 0)
 			(effects
 				(font
@@ -10215,7 +10357,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10315,7 +10457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 41.6052 45.72 0)
 			(effects
 				(font
@@ -10367,7 +10509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683fd689-513e-41da-8af1-97319dda89ee")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 31.75 40.6399 0)
 			(effects
 				(font
@@ -10385,7 +10527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 28.9052 45.72 0)
 			(effects
 				(font
@@ -10421,7 +10563,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10455,7 +10597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.3652 36.83 0)
 			(effects
 				(font
@@ -10507,7 +10649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ebcf3d1-413b-417a-b878-16ac94057bfd")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 143.51 31.7499 0)
 			(effects
 				(font
@@ -10525,7 +10667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.6652 36.83 0)
 			(effects
 				(font
@@ -10561,7 +10703,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10577,7 +10719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f1a927e-2285-489b-9db3-bccaa4e53c95")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 147.32 44.4499 0)
 			(effects
 				(font
@@ -10595,7 +10737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.4752 49.53 0)
 			(effects
 				(font
@@ -10631,7 +10773,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10647,7 +10789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72088417-7b3d-4253-a540-ff5c10b3882e")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 121.92 44.4499 0)
 			(effects
 				(font
@@ -10665,7 +10807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.0752 49.53 0)
 			(effects
 				(font
@@ -10701,7 +10843,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10725,7 +10867,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "1uF"
 			(at 66.04 39.37 90)
 			(effects
 				(font
@@ -10733,7 +10875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.23 45.4152 0)
 			(effects
 				(font
@@ -10801,7 +10943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 112.268 90)
 			(effects
 				(font
@@ -10838,77 +10980,6 @@
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
-		(at 76.2 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ee66582-9633-4acd-ba63-4ddc5eee3fea")
-		(property "Reference" "U1"
-			(at 76.2 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LD1117S33TR_SOT223"
-			(at 76.2 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 76.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
-			(at 78.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
-			(at 76.2 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88f4bd91-f64e-400b-8768-be143722592b")
-		)
-		(pin "2"
-			(uuid "e701c9e3-839d-4f01-b4df-c30cc6f1b256")
-		)
-		(pin "3"
-			(uuid "2fb53ad2-0fa3-4b92-9381-0b898814a869")
-		)
-		(instances
-			(project "TM4C-Purple-Pill"
-				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11104,6 +11175,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV75533PDBV")
+		(at 76.2 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "960e356e-d219-47d2-b54e-b1dfcb9f0918")
+		(property "Reference" "U1"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75533PDBV"
+			(at 76.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 76.2 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d3cb6a78-c3bc-4daa-b9a3-ab02ca352214")
+		)
+		(pin "1"
+			(uuid "3f3c91e7-150a-4dac-ad9c-f2d0e02e2e9c")
+		)
+		(pin "3"
+			(uuid "a369b8c2-51a6-4cb7-9354-086d5ee5d464")
+		)
+		(pin "2"
+			(uuid "8a239aed-f041-4447-a45f-630a27caecd0")
+		)
+		(pin "5"
+			(uuid "e94df764-539f-477f-9e67-ce385d56ccb7")
+		)
+		(instances
+			(project "TM4C-Purple-Pill"
+				(path "/91263885-299d-4d27-a70d-0968ae428135"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 86.36 44.45 270)
 		(unit 1)
@@ -11113,7 +11262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "978a940b-468a-41b5-92d9-3e1c68af1cc2")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 86.36 36.83 90)
 			(effects
 				(font
@@ -11121,7 +11270,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 86.36 39.37 90)
 			(effects
 				(font
@@ -11129,7 +11278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 45.4152 0)
 			(effects
 				(font
@@ -11165,7 +11314,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11247,7 +11396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4cf5279-eb73-49db-9fe8-651197a45514")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 83.82 87.6299 0)
 			(effects
 				(font
@@ -11265,7 +11414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.9752 92.71 0)
 			(effects
 				(font
@@ -11301,7 +11450,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11467,7 +11616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.232 78.74 90)
 			(effects
 				(font
@@ -11537,7 +11686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 178.7652 36.83 0)
 			(effects
 				(font
@@ -11721,7 +11870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dadce2e4-5f3d-464d-bccb-6f3cd3e3bad9")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 130.81 31.7499 0)
 			(effects
 				(font
@@ -11739,7 +11888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127.9652 36.83 0)
 			(effects
 				(font
@@ -11775,99 +11924,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Top_Bottom")
-		(at 120.65 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e846f926-0494-4d8e-9f6f-435d393b1d11")
-		(property "Reference" "J3"
-			(at 121.92 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x05_Top_Bottom"
-			(at 121.92 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 120.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "56e2e6f5-5a46-478a-ac20-d0318e61cf4f")
-		)
-		(pin "8"
-			(uuid "ff155e35-74ae-4973-a81f-2a96226e5aba")
-		)
-		(pin "6"
-			(uuid "e79c0f8c-9351-4596-9846-fac8db01736d")
-		)
-		(pin "10"
-			(uuid "0e0cd6ee-afb4-4172-a806-aa3e82c3e74c")
-		)
-		(pin "5"
-			(uuid "ed5e39e7-f8eb-4aba-9112-b90449be2e8c")
-		)
-		(pin "4"
-			(uuid "0a9fbc03-2e08-4349-843a-131a79ccac9f")
-		)
-		(pin "7"
-			(uuid "88035a9b-de52-45b5-89dd-fd1d49909c13")
-		)
-		(pin "3"
-			(uuid "0f5dfdc7-da2d-4826-b087-bea5b04c3ad0")
-		)
-		(pin "1"
-			(uuid "8bceda30-c61d-4c32-8fdd-1d20ab2925f0")
-		)
-		(pin "2"
-			(uuid "1dc0c612-e55a-4fa5-8de9-08b297381d03")
-		)
-		(instances
-			(project "TM4C-Purple-Pill"
-				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "J3")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11899,7 +11956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 170.18 127.508 90)
 			(effects
 				(font
@@ -11969,7 +12026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.6352 92.71 0)
 			(effects
 				(font
@@ -12087,7 +12144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8d9b554-ae42-4bd9-bc17-e78d9a27cba1")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 118.11 31.7499 0)
 			(effects
 				(font
@@ -12105,7 +12162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 36.83 0)
 			(effects
 				(font
@@ -12141,7 +12198,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12175,7 +12232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical"
 			(at 62.23 142.24 0)
 			(effects
 				(font
