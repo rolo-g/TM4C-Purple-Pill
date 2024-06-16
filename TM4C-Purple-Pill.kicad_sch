@@ -7,305 +7,11 @@
 	(title_block
 		(title "TM4C Purple Pill")
 		(date "2024-05-31")
-		(rev "0.2")
+		(rev "0.3")
 		(company "Rolando Rosales")
 		(comment 1 "https://github.com/rolo-g/TM4C-Purple-Pill")
 	)
 	(lib_symbols
-		(symbol "AB26TRB-32.768KHZ-T:AB26TRB-32.768KHZ-T"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at -5.0878 3.8159 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "AB26TRB-32.768KHZ-T"
-				(at -5.0944 -5.0944 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "AB26TRB-32.768KHZ-T:XTAL_AB26TRB-32.768KHZ-T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Abracon"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "2 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "Cylindrical Can Radial  Abracon"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/AB26TRB-32.768KHZ-T/Abracon+LLC/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "10-1-19"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AB26TRB-32.768KHZ-T/Abracon+LLC/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "AB26TRB-32.768KHZ-T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nLOW FREQUENCY REFLOWABLE CYLINDRICAL WATCH CRYSTAL\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Abracon"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "AB26TRB-32.768KHZ-T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "AB26TRB-32.768KHZ-T_0_0"
-				(polyline
-					(pts
-						(xy -2.3368 2.54) (xy -2.3368 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.54) (xy -1.397 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.54) (xy 1.397 2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -2.54) (xy -1.397 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 2.54) (xy 1.397 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.3368 2.54) (xy 2.3368 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "ABM3-16.000MHZ-B2-T:ABM3-16.000MHZ-B2-T"
 			(pin_names
 				(offset 1.016)
@@ -480,6 +186,300 @@
 				)
 			)
 			(symbol "ABM3-16.000MHZ-B2-T_0_0"
+				(polyline
+					(pts
+						(xy -2.3368 2.54) (xy -2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy 1.397 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 2.54) (xy 1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3368 2.54) (xy 2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABS07-32.768KHZ-T:ABS07-32.768KHZ-T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.0878 3.8159 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ABS07-32.768KHZ-T"
+				(at -5.0944 -5.0944 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ABS07-32.768KHZ-T:XTAL_ABS07-32.768KHZ-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-2 Abracon LLC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ABS07-32.768KHZ-T/Abracon+LLC/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "08.19.15"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABS07-32.768KHZ-T/Abracon+LLC/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ABS07-32.768KHZ-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=51000&manufacturer=Abracon&part_name=ABS07-32.768KHZ-T&search_term=abs07-32.768khz-t"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ABS07-32.768KHZ-T_0_0"
 				(polyline
 					(pts
 						(xy -2.3368 2.54) (xy -2.3368 -2.54)
@@ -3046,30 +3046,51 @@
 				)
 			)
 		)
-		(symbol "Diode:ESD9B3.3ST5G"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "Power_Protection:USBLC6-2SC6"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "ESD9B3.3ST5G"
-				(at 0 -2.54 0)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-923"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3078,7 +3099,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(property "ki_keywords" "usb ethernet video"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3087,7 +3108,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3096,28 +3117,78 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode TVS ESD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
 					)
-					(hide yes)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?923*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESD9B3.3ST5G_0_1"
+			(symbol "USBLC6-2SC6_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -3129,10 +3200,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+						(xy -2.54 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3141,10 +3212,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3153,10 +3224,119 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+						(xy -1.016 1.524) (xy -2.032 1.524)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3164,11 +3344,46 @@
 					)
 				)
 			)
-			(symbol "ESD9B3.3ST5G_1_1"
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "I/O1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3184,9 +3399,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "A2"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3194,6 +3409,78 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5009,12 +5296,6 @@
 		(uuid "33bdafc4-f15d-4d6b-aced-416136d3bd95")
 	)
 	(junction
-		(at 27.94 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d3c57ed-a524-417a-853e-dc8a590b32b1")
-	)
-	(junction
 		(at 72.39 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5033,6 +5314,12 @@
 		(uuid "4c6701e7-1ad6-42b3-b242-4f870c5ec593")
 	)
 	(junction
+		(at 123.19 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56743ad4-eaa0-4b84-a8ec-3164563ace93")
+	)
+	(junction
 		(at 152.4 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5043,12 +5330,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "665a421b-4ade-4852-a0f1-7831bada52d1")
-	)
-	(junction
-		(at 139.7 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69fe6751-4051-425a-be0d-eef496c51321")
 	)
 	(junction
 		(at 104.14 161.29)
@@ -5063,28 +5344,22 @@
 		(uuid "6f5c02e0-26eb-4033-a990-b87f951e42f7")
 	)
 	(junction
+		(at 123.19 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75d65ab7-d4cf-4a23-8e61-5e725cf20949")
+	)
+	(junction
 		(at 127 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76737a97-23f0-476c-9fdd-ac5908a417ac")
 	)
 	(junction
-		(at 146.05 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7eea813d-1141-4591-a0ee-3ad4cf8063c6")
-	)
-	(junction
-		(at 181.61 85.09)
+		(at 182.88 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86ffa2e0-037f-47b1-93d6-3b5a88b54a15")
-	)
-	(junction
-		(at 40.64 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9218171c-e1cd-4105-836c-3ff6328fbf9e")
 	)
 	(junction
 		(at 139.7 36.83)
@@ -5099,18 +5374,6 @@
 		(uuid "9adae0bd-197d-4edf-8b18-5ccda722eeae")
 	)
 	(junction
-		(at 146.05 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a58539f1-7477-4e46-b924-e1672abc693b")
-	)
-	(junction
-		(at 139.7 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8694bd7-a7f1-4aac-aa2a-95d7e51fff95")
-	)
-	(junction
 		(at 80.01 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5123,16 +5386,16 @@
 		(uuid "ad0a19ca-18a4-4f9e-b069-3d95e0f5296f")
 	)
 	(junction
+		(at 143.51 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b096b7c3-c63c-4368-bbe7-9a633dd1bf5a")
+	)
+	(junction
 		(at 127 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde7a722-2980-46e2-9936-5f2547b8539c")
-	)
-	(junction
-		(at 123.19 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c27d4f6c-0690-4207-8daa-b304558d742a")
 	)
 	(junction
 		(at 33.02 93.98)
@@ -5153,10 +5416,10 @@
 		(uuid "d812f0f8-fc34-4eae-a0e7-f2bb534776d6")
 	)
 	(junction
-		(at 123.19 138.43)
+		(at 40.64 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d866c934-ba82-44b5-9a66-bd5c76efac14")
+		(uuid "e8e121bf-6913-49d5-b9df-23633344915a")
 	)
 	(junction
 		(at 114.3 29.21)
@@ -5169,6 +5432,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff51abcb-6b4e-4884-a65b-4a0db1382519")
+	)
+	(junction
+		(at 27.94 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff824582-faad-41e8-9184-abbe815e596e")
 	)
 	(no_connect
 		(at 123.19 148.59)
@@ -5250,6 +5519,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 143.51) (xy 153.67 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03eb7c74-2d8c-4c12-b40f-fbd809505042")
+	)
+	(wire
+		(pts
 			(xy 29.21 165.1) (xy 22.86 165.1)
 		)
 		(stroke
@@ -5320,7 +5599,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 86.36) (xy 185.42 85.09)
+			(xy 186.69 86.36) (xy 186.69 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5340,23 +5619,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 78.74) (xy 158.75 78.74)
+			(xy 162.56 78.74) (xy 160.02 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "13d74d4f-b71a-4b93-96cc-a2cad186c191")
-	)
-	(wire
-		(pts
-			(xy 123.19 133.35) (xy 130.81 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1479d402-8dec-446b-8d6b-c02a4127d03e")
 	)
 	(wire
 		(pts
@@ -5400,7 +5669,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 116.84) (xy 186.69 116.84)
+			(xy 181.61 119.38) (xy 189.23 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5420,7 +5689,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 85.09) (xy 181.61 85.09)
+			(xy 186.69 85.09) (xy 182.88 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5437,16 +5706,6 @@
 			(type default)
 		)
 		(uuid "1ff6cba7-1cd7-4372-8f11-5aa0169354c5")
-	)
-	(wire
-		(pts
-			(xy 139.7 120.65) (xy 146.05 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22382047-9c65-4afa-b70a-277ea7149c7d")
 	)
 	(wire
 		(pts
@@ -5490,6 +5749,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 135.89) (xy 138.43 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287fd7bb-c5bc-4e51-9621-7c866213f5c6")
+	)
+	(wire
+		(pts
 			(xy 204.47 96.52) (xy 209.55 96.52)
 		)
 		(stroke
@@ -5500,7 +5769,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 128.27) (xy 139.7 128.27)
+			(xy 132.08 128.27) (xy 140.97 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5630,7 +5899,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 116.84) (xy 168.91 116.84)
+			(xy 173.99 119.38) (xy 171.45 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5760,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 91.44) (xy 181.61 91.44)
+			(xy 180.34 91.44) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5810,7 +6079,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 78.74) (xy 179.07 78.74)
+			(xy 182.88 78.74) (xy 180.34 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5850,6 +6119,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 120.65) (xy 143.51 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dea6f1-36c6-40ec-bfa5-d43cb67af784")
+	)
+	(wire
+		(pts
 			(xy 22.86 167.64) (xy 29.21 167.64)
 		)
 		(stroke
@@ -5870,7 +6149,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 91.44) (xy 181.61 85.09)
+			(xy 182.88 91.44) (xy 182.88 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6090,7 +6369,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 158.75 76.2)
+			(xy 160.02 78.74) (xy 160.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6140,7 +6419,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 116.84) (xy 168.91 114.3)
+			(xy 171.45 119.38) (xy 171.45 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6280,16 +6559,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 120.65) (xy 146.05 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844aa9e7-db90-430e-b3a4-82f31467df2d")
-	)
-	(wire
-		(pts
 			(xy 29.21 160.02) (xy 22.86 160.02)
 		)
 		(stroke
@@ -6350,6 +6619,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 140.97) (xy 133.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf15a1c-37d7-49c3-854d-4f727d2a60f9")
+	)
+	(wire
+		(pts
 			(xy 57.15 157.48) (xy 50.8 157.48)
 		)
 		(stroke
@@ -6367,6 +6646,26 @@
 			(type default)
 		)
 		(uuid "8e936bc7-3522-495b-b09d-072cc51571da")
+	)
+	(wire
+		(pts
+			(xy 123.19 135.89) (xy 138.43 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9068ffe9-938a-45f6-877e-cf5b2c9f21ef")
+	)
+	(wire
+		(pts
+			(xy 39.37 35.56) (xy 40.64 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d750ea-36ff-4802-9ea3-db95444d8ad8")
 	)
 	(wire
 		(pts
@@ -6407,6 +6706,16 @@
 			(type default)
 		)
 		(uuid "967b4ab5-2649-4555-b6d9-4d7f9675dabf")
+	)
+	(wire
+		(pts
+			(xy 143.51 120.65) (xy 149.86 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970166dd-c70b-45b4-9396-88795c55d8dc")
 	)
 	(wire
 		(pts
@@ -6490,16 +6799,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 35.56) (xy 29.21 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e88135d-97e5-48b1-b9dd-7dec09bb4a0a")
-	)
-	(wire
-		(pts
 			(xy 245.11 129.54) (xy 245.11 137.16)
 		)
 		(stroke
@@ -6510,7 +6809,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 91.44) (xy 161.29 91.44)
+			(xy 157.48 91.44) (xy 162.56 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6530,6 +6829,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 140.97) (xy 133.35 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44d6b4e-a277-4331-8090-5750ea505ec1")
+	)
+	(wire
+		(pts
 			(xy 57.15 137.16) (xy 50.8 137.16)
 		)
 		(stroke
@@ -6540,13 +6849,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 128.27) (xy 146.05 130.81)
+			(xy 123.19 120.65) (xy 143.51 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a96ad5f2-4aa0-4dca-b88b-56353ef756cf")
+		(uuid "ab7bfca9-5e77-4cee-97db-a78b40f4c28d")
 	)
 	(wire
 		(pts
@@ -6597,6 +6906,16 @@
 			(type default)
 		)
 		(uuid "ae49aa07-8beb-42d9-8d86-909e37817c3c")
+	)
+	(wire
+		(pts
+			(xy 148.59 146.05) (xy 153.67 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae61049c-0eaf-4b32-8163-eb7c7a0e6fab")
 	)
 	(wire
 		(pts
@@ -6780,16 +7099,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 35.56) (xy 39.37 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c409e3cb-97a3-4c8a-8db0-3d5afdc0a194")
-	)
-	(wire
-		(pts
 			(xy 128.27 77.47) (xy 140.97 77.47)
 		)
 		(stroke
@@ -6807,6 +7116,16 @@
 			(type default)
 		)
 		(uuid "c6b7d47a-6e0f-41ca-afc4-5bf3ebb0bb67")
+	)
+	(wire
+		(pts
+			(xy 138.43 146.05) (xy 133.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7eb8b89-9bc4-4af0-aa31-a5f90d2b419e")
 	)
 	(wire
 		(pts
@@ -6830,7 +7149,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 78.74) (xy 181.61 85.09)
+			(xy 182.88 78.74) (xy 182.88 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6940,6 +7259,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 151.13) (xy 143.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6edd724-39c2-4605-8d58-e1388c292199")
+	)
+	(wire
+		(pts
 			(xy 29.21 144.78) (xy 22.86 144.78)
 		)
 		(stroke
@@ -7020,7 +7349,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 91.44) (xy 168.91 91.44)
+			(xy 172.72 91.44) (xy 170.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7037,16 +7366,6 @@
 			(type default)
 		)
 		(uuid "e01afc75-ca0d-4b15-ba4d-b092f7aa8221")
-	)
-	(wire
-		(pts
-			(xy 123.19 120.65) (xy 139.7 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e063494f-74ee-422e-a1bc-36544ad1f8e6")
 	)
 	(wire
 		(pts
@@ -7067,26 +7386,6 @@
 			(type default)
 		)
 		(uuid "e1d66953-00d8-4b7b-ab4a-9176349a11f3")
-	)
-	(wire
-		(pts
-			(xy 123.19 138.43) (xy 130.81 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e55923b9-aed8-472d-bc1e-68bc2c13d263")
-	)
-	(wire
-		(pts
-			(xy 139.7 128.27) (xy 146.05 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5dd038d-9601-4668-a4fd-803de4577be0")
 	)
 	(wire
 		(pts
@@ -7117,6 +7416,16 @@
 			(type default)
 		)
 		(uuid "e7956ad5-9b76-4283-8586-57f19ff0e9ea")
+	)
+	(wire
+		(pts
+			(xy 27.94 35.56) (xy 29.21 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea26d023-ccd6-4ad3-9e61-c56d54b507d3")
 	)
 	(wire
 		(pts
@@ -7180,7 +7489,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 78.74) (xy 171.45 78.74)
+			(xy 170.18 78.74) (xy 172.72 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7335,8 +7644,8 @@
 		(uuid 503727fd-6d4b-4fca-9f3b-b5d97cee24e3)
 	)
 	(rectangle
-		(start 152.4 67.818)
-		(end 190.246 97.155)
+		(start 153.67 67.818)
+		(end 191.516 97.155)
 		(stroke
 			(width 0)
 			(type default)
@@ -7419,8 +7728,8 @@
 		(uuid a606ff5b-442e-49a6-b466-2869d8f3ac19)
 	)
 	(rectangle
-		(start 163.195 106.68)
-		(end 190.5 120.65)
+		(start 165.735 109.22)
+		(end 193.04 123.19)
 		(stroke
 			(width 0)
 			(type default)
@@ -7432,7 +7741,7 @@
 	)
 	(text "NWAKE Pull-up\n"
 		(exclude_from_sim no)
-		(at 182.88 105.156 0)
+		(at 185.42 107.696 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7472,7 +7781,7 @@
 	)
 	(text "Power/User LEDs"
 		(exclude_from_sim no)
-		(at 181.864 66.04 0)
+		(at 183.134 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7937,7 +8246,7 @@
 		(uuid "3ea3886b-081c-4789-b027-782b315154b4")
 	)
 	(label "PD4"
-		(at 130.81 138.43 180)
+		(at 153.67 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8333,7 +8642,7 @@
 		(uuid "95846e1b-311f-41f4-ad8d-972128e72327")
 	)
 	(label "VBUS"
-		(at 158.75 120.65 180)
+		(at 149.86 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8432,7 +8741,7 @@
 		(uuid "a6da1872-2cbf-46e6-b802-7a9713ba3581")
 	)
 	(label "PF1"
-		(at 156.21 91.44 0)
+		(at 157.48 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8520,7 +8829,7 @@
 		(uuid "b243ccbe-8865-4ae9-a493-9fef18b70623")
 	)
 	(label "NWAKE"
-		(at 186.69 116.84 180)
+		(at 189.23 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8861,7 +9170,7 @@
 		(uuid "ecc85472-b68d-46fa-80b3-8d42ac0bf2b8")
 	)
 	(label "PD5"
-		(at 130.81 133.35 180)
+		(at 153.67 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9002,75 +9311,6 @@
 			(justify left bottom)
 		)
 		(uuid "ffe5172d-7899-490b-9471-5403f21f3b36")
-	)
-	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 139.7 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00df6aa0-d8d8-4b69-b932-b136b31c5f81")
-		(property "Reference" "D1"
-			(at 132.842 116.586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD9B3.3ST5G"
-			(at 132.842 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bf6926b-52e9-4b6e-bf48-70651b7903df")
-		)
-		(pin "2"
-			(uuid "a2c96d9d-4f94-4918-8591-c28007844fe1")
-		)
-		(instances
-			(project "TM4C-Purple-Pill"
-				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x22")
@@ -9269,205 +9509,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AB26TRB-32.768KHZ-T:AB26TRB-32.768KHZ-T")
-		(at 34.29 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c995d69-848a-406e-91bb-a7a3e136c403")
-		(property "Reference" "Y2"
-			(at 34.29 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AB26TRB-32.768KHZ-T"
-			(at 34.29 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AB26TRB-32.768KHZ-T:XTAL_AB26TRB-32.768KHZ-T"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Abracon"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2 mm"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Cylindrical Can Radial  Abracon"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AB26TRB-32.768KHZ-T/Abracon+LLC/view-part/?ref=eda"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "10-1-19"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AB26TRB-32.768KHZ-T/Abracon+LLC/view-part/?ref=snap"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "AB26TRB-32.768KHZ-T"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nLOW FREQUENCY REFLOWABLE CYLINDRICAL WATCH CRYSTAL\n"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Abracon"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "AB26TRB-32.768KHZ-T"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f1acd63-99a1-46ba-8366-2e6f043d2cbe")
-		)
-		(pin "1"
-			(uuid "65958908-911a-4db8-8fde-ee3e1a02ba5e")
-		)
-		(instances
-			(project "TM4C-Purple-Pill"
-				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 120.65 82.55 0)
 		(unit 1)
@@ -9624,6 +9665,72 @@
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20cf0f35-2010-4a12-8d68-ecb6f9064082")
+		(property "Reference" "#PWR012"
+			(at 143.51 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13ec4c8d-39cb-4c61-acd0-bdaabbe9a086")
+		)
+		(instances
+			(project "TM4C-Purple-Pill"
+				(path "/91263885-299d-4d27-a70d-0968ae428135"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10178,7 +10285,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 165.1 91.44 180)
+		(at 166.37 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10187,7 +10294,7 @@
 		(fields_autoplaced yes)
 		(uuid "30ef4de6-e5ff-407d-8c3c-d6ff2d445fc3")
 		(property "Reference" "PF1"
-			(at 166.6875 83.82 0)
+			(at 167.9575 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,7 +10302,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 166.6875 86.36 0)
+			(at 167.9575 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10203,7 +10310,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 165.1 91.44 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10212,7 +10319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 91.44 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,7 +10328,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 165.1 91.44 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10316,7 +10423,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 175.26 91.44 90)
+		(at 176.53 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10325,7 +10432,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f949347-20c3-4bbc-a2ea-fbcf35c1323d")
 		(property "Reference" "R3"
-			(at 175.26 85.09 90)
+			(at 176.53 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10333,7 +10440,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 175.26 87.63 90)
+			(at 176.53 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +10448,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 175.26 93.218 90)
+			(at 176.53 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10350,7 +10457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 91.44 0)
+			(at 176.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,7 +10466,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 175.26 91.44 0)
+			(at 176.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10392,7 +10499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43303433-8e82-4255-830f-9d3bba3a7bd0")
-		(property "Reference" "RESET1"
+		(property "Reference" "RST1"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -10565,7 +10672,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "RESET1")
+					(reference "RST1")
 					(unit 1)
 				)
 			)
@@ -10639,7 +10746,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 165.1 78.74 180)
+		(at 166.37 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10648,7 +10755,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ba87708-19ea-43f9-9002-c26427da06a5")
 		(property "Reference" "PWR1"
-			(at 166.6875 71.12 0)
+			(at 167.9575 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10656,7 +10763,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 166.6875 73.66 0)
+			(at 167.9575 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10664,7 +10771,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 165.1 78.74 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10673,7 +10780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 78.74 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,7 +10789,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 165.1 78.74 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,7 +10814,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 158.75 76.2 0)
+		(at 160.02 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10716,7 +10823,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bb14e2e-2ec6-441e-907c-addd4905b108")
 		(property "Reference" "#PWR06"
-			(at 158.75 80.01 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10725,7 +10832,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 158.75 71.12 0)
+			(at 160.02 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,7 +10840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 76.2 0)
+			(at 160.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,7 +10849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 76.2 0)
+			(at 160.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10751,7 +10858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 158.75 76.2 0)
+			(at 160.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,7 +11288,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 130.81 0)
+		(at 140.97 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11190,7 +11297,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c6c25f0-03dc-4abe-8351-e9b0f7a8ea43")
 		(property "Reference" "#PWR010"
-			(at 146.05 137.16 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11199,7 +11306,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 135.89 0)
+			(at 140.97 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +11314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 130.81 0)
+			(at 140.97 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 130.81 0)
+			(at 140.97 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +11332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 130.81 0)
+			(at 140.97 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11595,7 +11702,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 175.26 78.74 90)
+		(at 176.53 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11604,7 +11711,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c27c35a-3ced-452a-b962-b9f3c734eef6")
 		(property "Reference" "R2"
-			(at 175.26 72.39 90)
+			(at 176.53 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11612,7 +11719,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 175.26 74.93 90)
+			(at 176.53 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11620,7 +11727,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 175.26 80.518 90)
+			(at 176.53 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11629,7 +11736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 78.74 0)
+			(at 176.53 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11638,7 +11745,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 175.26 78.74 0)
+			(at 176.53 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11851,6 +11958,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 143.51 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89311d5c-8303-40c7-b00e-a52c79797421")
+		(property "Reference" "U2"
+			(at 145.1611 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 145.1611 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 144.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 144.78 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 143.51 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "78f34432-0c63-46e7-a3cb-949d51599df7")
+		)
+		(pin "2"
+			(uuid "d2aceac1-e990-458d-aa91-f0715bee8376")
+		)
+		(pin "6"
+			(uuid "ed7e6c7b-8721-4e89-bd92-f22c51ce48e4")
+		)
+		(pin "5"
+			(uuid "9e3a6ddc-e047-463e-b5d7-677b780a0d9d")
+		)
+		(pin "4"
+			(uuid "ab3c5ce8-6b01-4ff1-8bae-ca2e1db0e596")
+		)
+		(pin "1"
+			(uuid "bb94caeb-30b6-489e-9f0d-de03e1619c5d")
+		)
+		(instances
+			(project ""
+				(path "/91263885-299d-4d27-a70d-0968ae428135"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:TLV75533PDBV")
 		(at 76.2 34.29 0)
 		(unit 1)
@@ -11998,7 +12190,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 86.36 0)
+		(at 186.69 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12007,7 +12199,7 @@
 		(fields_autoplaced yes)
 		(uuid "984d2049-4875-452c-a9cf-e8e50b84eae2")
 		(property "Reference" "#PWR08"
-			(at 185.42 92.71 0)
+			(at 186.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,7 +12208,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 91.44 0)
+			(at 186.69 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12024,7 +12216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 86.36 0)
+			(at 186.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12033,7 +12225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 86.36 0)
+			(at 186.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12042,7 +12234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 86.36 0)
+			(at 186.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12201,7 +12393,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 168.91 114.3 0)
+		(at 171.45 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12210,7 +12402,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad9dbfc6-21ab-4948-b0e6-84844e285e16")
 		(property "Reference" "#PWR013"
-			(at 168.91 118.11 0)
+			(at 171.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12219,7 +12411,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 168.91 109.22 0)
+			(at 171.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12227,7 +12419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 114.3 0)
+			(at 171.45 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,7 +12428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 114.3 0)
+			(at 171.45 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12245,7 +12437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 168.91 114.3 0)
+			(at 171.45 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,6 +12518,205 @@
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABS07-32.768KHZ-T:ABS07-32.768KHZ-T")
+		(at 34.29 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b01699ac-47c8-4d85-9a15-f05be4342610")
+		(property "Reference" "Y2"
+			(at 34.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ABS07-32.768KHZ-T"
+			(at 34.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ABS07-32.768KHZ-T:XTAL_ABS07-32.768KHZ-T"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Abracon"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-2 Abracon LLC"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ABS07-32.768KHZ-T/Abracon+LLC/view-part/?ref=eda"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "08.19.15"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABS07-32.768KHZ-T/Abracon+LLC/view-part/?ref=snap"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ABS07-32.768KHZ-T"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=51000&manufacturer=Abracon&part_name=ABS07-32.768KHZ-T&search_term=abs07-32.768khz-t"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead\n"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Abracon"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79343bb3-a92d-4843-a1ac-4cceba5b0dc6")
+		)
+		(pin "1"
+			(uuid "1339049f-3dfc-4a5d-a686-e6bf68a7289a")
+		)
+		(instances
+			(project ""
+				(path "/91263885-299d-4d27-a70d-0968ae428135"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -12480,16 +12871,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7d89cd7-24d7-4b4a-8d55-4f4ddd094bc2")
-		(property "Reference" "5.1k1"
-			(at 135.128 132.588 90)
+		(property "Reference" "R5"
+			(at 135.128 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R5"
-			(at 135.128 130.048 90)
+		(property "Value" "5.1k"
+			(at 135.128 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12532,7 +12923,7 @@
 		(instances
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "5.1k1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12855,7 +13246,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 175.26 116.84 90)
+		(at 177.8 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12864,7 +13255,7 @@
 		(fields_autoplaced yes)
 		(uuid "e895b61e-bff4-4f36-9227-c01aaf9deabc")
 		(property "Reference" "R6"
-			(at 175.26 110.49 90)
+			(at 177.8 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12872,7 +13263,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 175.26 113.03 90)
+			(at 177.8 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12880,7 +13271,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 175.26 118.618 90)
+			(at 177.8 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12889,7 +13280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 116.84 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12898,7 +13289,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 175.26 116.84 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13052,75 +13443,6 @@
 			(project "TM4C-Purple-Pill"
 				(path "/91263885-299d-4d27-a70d-0968ae428135"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 146.05 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f84d863c-f17b-4f31-98c3-ea98a6796d09")
-		(property "Reference" "C17"
-			(at 149.86 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 149.86 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 147.0152 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c2636d7-6b0c-47ca-96cd-9da1925dec3c")
-		)
-		(pin "1"
-			(uuid "f12e4609-a833-48f6-ba38-a15cef34fddd")
-		)
-		(instances
-			(project "TM4C-Purple-Pill"
-				(path "/91263885-299d-4d27-a70d-0968ae428135"
-					(reference "C17")
 					(unit 1)
 				)
 			)
