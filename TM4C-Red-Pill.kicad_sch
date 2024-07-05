@@ -5,11 +5,11 @@
 	(uuid "91263885-299d-4d27-a70d-0968ae428135")
 	(paper "A4")
 	(title_block
-		(title "TM4C Purple Pill")
+		(title "TM4C Red Pill")
 		(date "2024-05-31")
 		(rev "0.3")
 		(company "Rolando Rosales")
-		(comment 1 "https://github.com/rolo-g/TM4C-Purple-Pill")
+		(comment 1 "https://github.com/rolo-g/TM4C-Red-Pill")
 	)
 	(lib_symbols
 		(symbol "ABM3-16.000MHZ-B2-T:ABM3-16.000MHZ-B2-T"

@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TM4C-Purple-Pill.kicad_pro",
+    "filename": "TM4C-Red-Pill.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -489,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "TM4C-Purple-Pill.step",
+      "step": "TM4C-Red-Pill.step",
       "svg": "",
       "vrml": ""
     },
